@@ -1,0 +1,38 @@
+{
+  "name": "rehype-image-resize",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "url": "https://shubhamverma.me",
+    "name": "Shubham Verma"
+  },
+  "type": "module",
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ],
+  "types": "index.d.ts",
+  "keywords": [
+    "image-resize",
+    "rehype-image-resize",
+    "markdown-image-resize",
+    "rehype-plugin"
+  ],
+  "bugs": "https://github.com/ShubhamVerma1811/rehype-image-resize/issues",
+  "scripts": {
+    "format": "prettier --write *.{js,ts,cjs,json,md}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShubhamVerma1811/rehype-image-resize"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "unist-util-visit": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "prettier": "^2.7.1"
+  }
+}
